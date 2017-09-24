@@ -4,6 +4,12 @@
 
 Read more on the [ICTCS'2017 website](http://www.ictcs.info/page/workshops).
 
+# Preparing for hands-on sessions
+You will need an Ubuntu 16.04. Then install the following software on your Ubuntu box:
+```
+
+```
+
 # Schedule
 * 9:00-10:00 [Introduction: Big Data Europe Project, Architecture, Components and Interfaces](./slides/Introduction.pdf)
 * 10:00-11:00 [Planning BDI Stack for Your Application](./slides/Planning_bdi_stack.pdf)
