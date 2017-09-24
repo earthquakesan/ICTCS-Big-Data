@@ -5,9 +5,23 @@
 Read more on the [ICTCS'2017 website](http://www.ictcs.info/page/workshops).
 
 # Preparing for hands-on sessions
-You will need an Ubuntu 16.04. Then install the following software on your Ubuntu box:
-```
+You will need an Ubuntu 16.04. [Install Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#install-docker-ce) and [docker-compose](https://docs.docker.com/compose/install/#install-compose) on your Ubuntu box.
 
+Then create a directory for all the workshop files:
+```
+$ mkdir ~/Workspace/ictcs-lowering-barriers-to-bd && cd ~/Workspace/ictcs-lowering-barriers-to-bd
+```
+Clone the Docker Hadoop Spark Workbench ([install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) first if necessary):
+```
+$ git clone git@github.com:big-data-europe/docker-hadoop-spark-workbench.git && cd docker-hadoop-spark-workbench
+```
+Pull all the necessary docker images:
+```
+$ docker-compose pull
+```
+And additionally pull java spark template docker image:
+```
+$ docker pull bde2020/spark-submit:2.1.0-hadoop2.8-hive-java8
 ```
 
 # Schedule
