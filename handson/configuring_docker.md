@@ -31,7 +31,7 @@ ExecStart=/usr/bin/docker daemon -H fd:// -H tcp://172.18.10.3:2375 $DOCKER_OPTS
 
 Explanation of the configuration parameters:
 | Parameter  | Explanation        |
-| -----------|--------------------|
+| --- | --- |
 | --bip      | supply a specific IP address and netmask for the docker0 bridge |
 | --iptables | Docker will never make changes to your system iptables rules if you set --iptables=false when the daemon starts. |
 | --label    | Custom label for this host |
