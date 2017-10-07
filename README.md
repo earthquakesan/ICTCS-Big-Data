@@ -34,4 +34,4 @@ $ docker pull bde2020/spark-submit:2.1.0-hadoop2.8-hive-java8
 * 13:00-14:00 Lunch
 * 14:00-15:00 [Methodologies for Developing a Big Data Applications](./slides/Methodologies.pdf)
 * 15:00-16:30 Hands-on: [Developing and Deploying a Big Data Application](./handson/developing_bda.md)
-* 16:30-17:00 Conclusions, Closing Remarks, Q&A Session
+* 16:30-17:00 [Conclusions, Closing Remarks, Q&A Session](./slides/Conclusions.pdf)
