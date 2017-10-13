@@ -40,6 +40,8 @@ Write an application, which reads access and error apache logs (use sample files
 2. Number of requests per IP address over all the log duration
 3. Amount of failed requests
 
+Answer: [view](https://gist.github.com/earthquakesan/e35653927e4c67d88ad6d9dc32e3aa29)
+
 Write an application to make a text analysis (use sample files --> Alice in Wonderland). It should output the following information:
 1. Most used words in the book
   a. Make a stop list from the most used words such as "the", "a", "or" etc.
